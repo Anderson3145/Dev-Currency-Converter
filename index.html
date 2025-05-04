@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+  <title>Currency Converter</title>
+</head>
+<body>
+  <img class="logo" src="./assets/logo.gif" alt="devclub-logo-currency-converter"/>
+
+  <main>
+    <!-- Field for base currency -->
+    <label>
+      Convert <b>from</b>
+      <select id="from-currency">
+        <option value="real">BRL Brazilian Real</option>
+        <option value="dolar">USD US Dollar</option>
+        <option value="euro">EUR Euro</option>
+        <option value="libra">GBP British Pound</option>
+        <option value="bitcoin">BTC Bitcoin</option>
+      </select>
+    </label>
+
+    <!-- Field for target currency -->
+    <label>
+      Convert <b>to</b>
+      <select id="to-currency">
+        <option value="dolar">USD US Dollar</option>
+        <option value="euro">EUR Euro</option>
+        <option value="libra">GBP British Pound</option>
+        <option value="bitcoin">BTC Bitcoin</option>
+        <option value="real">BRL Brazilian Real</option>
+      </select>
+    </label>
+
+    <!-- Input field for amount -->
+    <label>
+      <input id="amount-input" placeholder="BRL 10,000.00" />
+    </label>
+
+    <!-- Convert button -->
+    <button id="convert-button">Convert</button>
+
+    <!-- Dynamic result display -->
+    <section>
+      <!-- Base currency result -->
+      <div class="currency-result">
+        <img id="base-currency-image" src="./assets/Real.png" alt="Base Currency Flag">
+        <p id="base-currency-name" class="currency-name">Brazilian Real</p>
+        <p class="currency-value-base">R$ 0.00</p>
+      </div>
+
+      <img class="arrow" src="./assets/arow.png" alt="Conversion Arrow">
+
+      <!-- Target currency result -->
+      <div class="currency-result">
+        <img id="target-currency-image" src="./assets/Dollar.png" alt="Target Currency Flag">
+        <p id="target-currency-name" class="currency-name">US Dollar</p>
+        <p id="target-currency-value" class="currency-value">USD 0.00</p>
+      </div>
+    </section>
+  </main>
+
+  <script src="./script.js"></script>
+</body>
+</html>
