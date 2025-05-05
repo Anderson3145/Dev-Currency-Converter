@@ -3,7 +3,7 @@
 
 # 💸 Conversor Universal de Moedas
 
-> Projeto desenvolvido durante as aulas do [DevClub](https://devclub.com.br) (abre em nova aba), com permissão para fazer modificações pessoais.
+> Projeto desenvolvido durante as aulas do [DevClub](https://devclub.com.br), com permissão para fazer modificações pessoais.
 
 🔗 [Acesse o projeto online](https://anderson3145.github.io/Dev-Currency-Converter/)
 
@@ -22,7 +22,7 @@ Desenvolvido com foco em:
 - Integração com API pública: [AwesomeAPI](https://economia.awesomeapi.com.br)
 
 <div align="center">
-  <img src="assets/screenshot-converter.png" alt="Print do Conversor de Moedas" width="600"/>
+  <img src="https://raw.githubusercontent.com/Anderson3145/Dev-Currency-Converter/2c1ceabb33ce05a8ff877c86bfe7dacb0da3a8a0/assets/currency-converter.jpg" alt="Print do Conversor de Moedas" width="600"/>
 </div>
 
 ---
@@ -49,8 +49,26 @@ Desenvolvido com foco em:
 ---
 
 ## 📁 Estrutura do Projeto
-
-
+```
+Dev-Currency-Converter/
+│
+├── 🧾 index.html
+├── 🎨 style.css
+├── ⚙️ script.js
+├── 📄 README.md
+├── 📜 LICENSE
+└── 📁 assets/
+    ├── 🖼️ logo.gif
+    ├── 🔁 arow.png
+    ├── 💵 Real.png
+    ├── 💸 Dollar.png
+    ├── 💶 Euro.png
+    ├── 🏦 Libra 1.png
+    └── 🪙 Bitcoin.png
+```
+      
+      
+      
 ## 🙋‍♂️ Criado por:
 
 Anderson Rios
