@@ -23,6 +23,7 @@ Desenvolvido com foco em:
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/Anderson3145/Dev-Currency-Converter/2c1ceabb33ce05a8ff877c86bfe7dacb0da3a8a0/assets/currency-converter.jpg" alt="Print do Conversor de Moedas" width="600"/>
+  <p><i><b>Conversor de Moedas Funcionando</b></i></p>
 </div>
 
 ---
