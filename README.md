@@ -1,59 +1,75 @@
+[![GitHub license](https://img.shields.io/github/license/Anderson3145/Dev-Currency-Converter?style=for-the-badge&color=blue)](https://github.com/Anderson3145/Dev-Currency-Converter/blob/master/LICENSE)
+[![GitHub stars](https://img.shields.io/github/stars/Anderson3145/Dev-Currency-Converter?style=social)](https://github.com/Anderson3145/Dev-Currency-Converter)
+
 # 💸 Conversor Universal de Moedas
 
-> Esse foi um projeto desenvolvido durante as aulas do [DevClub](https://devclub.com.br) , com permissão para fazer modificações pessoais.
+> Projeto desenvolvido durante as aulas do [DevClub](https://devclub.com.br), com permissão para fazer modificações pessoais.
 
-> Um conversor de moedas online desenvolvido com HTML, CSS e JavaScript puro
-
-
-[![GitHub stars](https://img.shields.io/github/stars/anderson3145/DevClub-projects?style=social)](https://github.com/anderson3145/DevClub-projects)
-
-🔗 [Acesse o projeto online](https://anderson3145.github.io/DevClub-projects/)
+🔗 [Acesse o projeto online](https://anderson3145.github.io/Dev-Currency-Converter/)
 
 Um **conversor universal de moedas** totalmente funcional e responsivo. Permite ao usuário converter entre as principais moedas do mundo:
-- Real Brasileiro (BRL)
-- Dólar Americano (USD)
-- Euro (EUR)
-- Libra Esterlina (GBP)
-- Bitcoin (BTC)
+- Real Brasileiro (`BRL`)
+- Dólar Americano (`USD`)
+- Euro (`EUR`)
+- Libra Esterlina (`GBP`)
+- Bitcoin (`BTC`)
 
-Desenvolvido como parte dos estudos em front-end, com foco em DOM, eventos, assincronismo e consumo de API pública.
+Desenvolvido com foco em:
+- Manipulação do DOM
+- Eventos no JavaScript
+- Requisições assíncronas (`async/await`)
+- Formatação de valores monetários (`Intl.NumberFormat`)
+- Integração com API pública: [AwesomeAPI](https://economia.awesomeapi.com.br)
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/Anderson3145/Dev-Currency-Converter/2c1ceabb33ce05a8ff877c86bfe7dacb0da3a8a0/assets/currency-converter.jpg" alt="Print do Conversor de Moedas" width="600"/>
+  <p><i><b>Conversor de Moedas Funcionando</b></i></p>
+</div>
 
 ---
-## <img src="https://github.com/Anderson3145/Dev-Currency-Converter/blob/master/assets/currency-converter.jpg">
 
 ## 🧠 Funcionalidades
 
 ✅ Converte qualquer moeda para qualquer outra  
 ✅ Busca cotações atualizadas via API (AwesomeAPI)  
-✅ Atualiza automaticamente após a primeira conversão  
-✅ Imagens das bandeiras atualizam conforme seleção  
+✅ Atualiza automaticamente após a primeira interação  
+✅ Imagens das bandeiras atualizam conforme a seleção  
 ✅ Valores formatados corretamente por região (`R$`, `$`, `€`, `£`, `BTC`)  
-✅ Interface limpa e intuitiva  
+✅ Interface dinâmica e intuitiva
 
 ---
-## 🚀 Como usar?
 
-1. Acesse:  
-   [https://anderson3145.github.io/DevClub-projects/](https://anderson3145.github.io/DevClub-projects/)
-2. Escolha a moeda de origem (`from-currency`)
-3. Escolha a moeda de destino (`to-currency`)
-4. Digite o valor que deseja converter
-5. Clique em **Converter**
-6. Após a primeira interação, o app converte automaticamente ao mudar os selects ou digitar novo valor
+## 🛠 Tecnologias utilizadas
 
-# 🛠 Tecnologias utilizadas
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)  
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)  
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)  
+![GitHub Pages](https://img.shields.io/badge/GitHub_Pages-2ea44f?style=for-the-badge&logo=github&logoColor=white)  
+![AwesomeAPI](https://img.shields.io/badge/API-AwesomeAPI-blueviolet?style=for-the-badge&logo=webflow&logoColor=white)
 
-| Ferramenta | Descrição |
-|-----------|-----------|
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white) | Estrutura da página |
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white) | Estilização e layout responsivo |
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black) | Lógica do conversor |
-![GitHub Pages](https://img.shields.io/badge/GitHub_Pages-2ea44f?style=for-the-badge&logo=github&logoColor=white) | Hospedagem gratuita online |
-![AwesomeAPI](https://img.shields.io/badge/API-AwesomeAPI-blueviolet?style=for-the-badge&logo=webflow&logoColor=white) | Cotações em tempo real |
 ---
 
-## 🧩 Estrutura do Projeto
-
+## 📁 Estrutura do Projeto
+```
+Dev-Currency-Converter/
+│
+├── 🧾 index.html
+├── 🎨 style.css
+├── ⚙️ script.js
+├── 📄 README.md
+├── 📜 LICENSE
+└── 📁 assets/
+    ├── 🖼️ logo.gif
+    ├── 🔁 arow.png
+    ├── 💵 Real.png
+    ├── 💸 Dollar.png
+    ├── 💶 Euro.png
+    ├── 🏦 Libra 1.png
+    └── 🪙 Bitcoin.png
+```
+      
+      
+      
 ## 🙋‍♂️ Criado por:
 
 Anderson Rios
